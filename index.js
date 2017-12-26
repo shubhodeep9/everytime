@@ -20,7 +20,8 @@ Everytime.prototype.getTime = function(longitude) {
 
     // Lets get timediff in hours and minutes separately
     formattedTime = this._decimalToTime(timediff)
-    console.log(formattedTime)
+    
+    return this.time.addHours(formattedTime.hour, formattedTime.minute)
 }
 
 Everytime.prototype._decimalToTime = function(decimal) {
