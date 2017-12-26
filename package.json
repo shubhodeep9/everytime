@@ -1,0 +1,24 @@
+{
+  "name": "everytime",
+  "version": "1.0.0",
+  "description": "Tells time, based on your longitude.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhodeep9/everytime.git"
+  },
+  "keywords": [
+    "time",
+    "geo",
+    "lat-long"
+  ],
+  "author": "Shubhodeep Mukherjee",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shubhodeep9/everytime/issues"
+  },
+  "homepage": "https://github.com/shubhodeep9/everytime#readme"
+}
