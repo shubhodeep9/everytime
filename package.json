@@ -1,5 +1,5 @@
 {
-  "name": "everytime",
+  "name": "@shubhodeep9/everytime",
   "version": "1.0.0",
   "description": "Tells time, based on your longitude.",
   "main": "index.js",
