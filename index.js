@@ -11,8 +11,9 @@ function Everytime() {
     // data members to be initialised as needed.
 }
 
-Everytime.prototype.getTime = function(longitude) {
+Everytime.prototype.getTime = function(longitude, formatted) {
     if(!longitude) longitude = 0
+    if(!formatted && typeof formatted != 'boolean') formatted = false
     
     // calculate the difference in time
     // ALGO: timediff(in hrs) = (longitude * 4) / 60
@@ -20,8 +21,10 @@ Everytime.prototype.getTime = function(longitude) {
 
     // Lets get timediff in hours and minutes separately
     formattedTime = this._decimalToTime(timediff)
-    
-    return this.time.addHours(formattedTime.hour, formattedTime.minute)
+
+    output = this.time.addHours(formattedTime.hour, formattedTime.minute)
+    if(formatted) return output.toUTCString()
+    return output
 }
 
 Everytime.prototype._decimalToTime = function(decimal) {
