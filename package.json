@@ -1,6 +1,6 @@
 {
   "name": "@shubhodeep9/everytime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tells time, based on your longitude.",
   "main": "index.js",
   "scripts": {
