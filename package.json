@@ -4,7 +4,7 @@
   "description": "Tells time, based on your longitude.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
