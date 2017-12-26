@@ -1,2 +1,2 @@
-var everytime = require('../.');
-everytime(2);
+var everytime = require('../.')()
+everytime.getTime(82.5644)
