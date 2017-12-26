@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/shubhodeep9/everytime/issues"
   },
-  "homepage": "https://github.com/shubhodeep9/everytime#readme"
+  "homepage": "https://github.com/shubhodeep9/everytime#readme",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
 }
